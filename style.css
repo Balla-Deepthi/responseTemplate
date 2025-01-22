@@ -84,8 +84,8 @@ html,body
 }
 .image>img
 {
-    /* margin: 32px; */
     border-radius: 5px;
+    
 }
 .text1
 {
@@ -143,7 +143,7 @@ html,body
     color: white;
     font-size: 64px;
     font-family: "Raleway", serif;
-    /* margin: 10px; */
+   
 
 }
 .text-container-2>p:last-child
@@ -151,7 +151,7 @@ html,body
     color: white;
     font-size: 30px;
     font-family: "Raleway", serif;
-    /* margin: 10px; */
+    
 
 }
 .main-container-2
@@ -167,11 +167,12 @@ html,body
 {
     font-size: 36px;
     color: rgb(87, 85, 85);
-    /* margin: 10px; */
+   
 }
 .photo>img{
-    /* margin: 64px; */
     border-radius: 5px;
+    
+    
 }
 .table
 {
@@ -249,27 +250,33 @@ color: white;
     .bg-container
     {
         height: 100%;
-        width: 100%;
+        width: 500px;
     }
     .main-container
     {
-        width: 100%;
+        width: 500px;
     }
     .image>img
     {
-        width: 450px;
+        width: 500px;
+        padding: 10px;
+        
+        
     }
     .text2{
-        width: 450px;
+        width: 500px;
+        padding: 10px;
     }
     .main-container-2
     {
-        width: 100%;
+        width: 500px;
         
     }
     .photo>img
     {
-        width: 450px;
+        width: 500px;
+        padding: 10px;
+        
         
     }
     .table
@@ -278,16 +285,7 @@ color: white;
         flex-direction: column;
         gap:20px
     }
-    /* .main-container-3
-    {
-        width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    background-color: #f7c8c8;
-    padding: 64px;
-    } */
+    
     .main-container-3>p:first-child
     {
         font-size: 32px;
