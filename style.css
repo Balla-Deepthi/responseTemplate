@@ -113,6 +113,13 @@ html,body
     font-family: "Raleway", serif;
     font-size: 18px;
 }
+.text3>a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
 .text3:hover
 {
     background-color: gray;
