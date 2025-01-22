@@ -246,16 +246,31 @@ html,body
 color: white;
 }
 @media screen and (max-width : 500px){
-    .image>img
+    .bg-container
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .main-container
     {
         width: 100%;
     }
+    .image>img
+    {
+        width: 450px;
+    }
     .text2{
+        width: 450px;
+    }
+    .main-container-2
+    {
         width: 100%;
+        
     }
     .photo>img
     {
-        width: 100%;
+        width: 450px;
+        
     }
     .table
     {
